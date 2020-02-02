@@ -64,7 +64,7 @@ class Example extends Component {
             <div>
               <p>ID: uC3</p>
               <p>Name: User C</p>
-              <p>As index 2, I'm the last in the list</p>
+              <p>At index 2, I'm the last in the list</p>
             </div>
           </div>
         </div>
