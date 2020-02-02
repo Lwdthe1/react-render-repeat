@@ -31,11 +31,7 @@ class Example extends Component {
         <div>
           <h2>Example 1:</h2>
           <p>
-            Provide render conditions and render props.
-            <br />
-            <br />
-            The "if" will succeed and render its render prop, "elseIfRender" as a
-            plain Text node.
+            Provide the datasource as "list" and your render arrow function as "render".
           </p>
           <RenderRepeat
             list={[{id: 'uA1', name: 'User A'}, {id: 'uB2', name: 'User B'}, {id: 'uC3', name: 'User C'}]}
