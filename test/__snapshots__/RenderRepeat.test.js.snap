@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example 1 1`] = `
+Array [
+  <div>
+    <p>
+      ID: 
+      uA1
+    </p>
+    <p>
+      Name: 
+      User A
+    </p>
+  </div>,
+  <div>
+    <p>
+      ID: 
+      uB2
+    </p>
+    <p>
+      Name: 
+      User B
+    </p>
+  </div>,
+  <div>
+    <p>
+      ID: 
+      uC3
+    </p>
+    <p>
+      Name: 
+      User C
+    </p>
+    <p>
+      As index 
+      2
+      , I'm the last in the list
+    </p>
+  </div>,
+]
+`;
+
+exports[`Example 2: Render with placeholders 1`] = `
+Array [
+  <div>
+    <p>
+      ID: 
+      uA1
+    </p>
+    <p>
+      Name: 
+      User A
+    </p>
+  </div>,
+  <div>
+    <p>
+      ID: 
+      uB2
+    </p>
+    <p>
+      Name: 
+      User B
+    </p>
+  </div>,
+  <div>
+    <p>
+      ID: 
+      uC3
+    </p>
+    <p>
+      Name: 
+      User C
+    </p>
+  </div>,
+  <div
+    className="u-relative"
+  >
+    <p>
+      I am the #
+      3
+       loading indicator ... 
+    </p>
+    <p>
+      I should be replaced after the real data returns from the server.
+    </p>
+  </div>,
+  <div
+    className="u-relative"
+  >
+    <p>
+      I am the #
+      4
+       loading indicator ... 
+    </p>
+    <p>
+      I should be replaced after the real data returns from the server.
+    </p>
+  </div>,
+  <div
+    className="u-relative"
+  >
+    <p>
+      I am the #
+      5
+       loading indicator ... 
+    </p>
+    <p>
+      I should be replaced after the real data returns from the server.
+    </p>
+  </div>,
+  <div
+    className="u-relative"
+  >
+    <p>
+      I am the #
+      6
+       loading indicator ... 
+    </p>
+    <p>
+      I should be replaced after the real data returns from the server.
+    </p>
+  </div>,
+  <div
+    className="u-relative"
+  >
+    <p>
+      I am the #
+      7
+       loading indicator ... 
+    </p>
+    <p>
+      I should be replaced after the real data returns from the server.
+    </p>
+  </div>,
+]
+`;
+
+exports[`Example 3: Render with placeholders with isLast check 1`] = `
+Array [
+  <p>
+    Element at index 
+    0
+  </p>,
+  <p>
+    Element at index 
+    1
+  </p>,
+  <p>
+    Placeholder at index 
+    2
+     
+    <span>
+      is not last.
+    </span>
+  </p>,
+  <p>
+    Placeholder at index 
+    3
+     
+    <span>
+      is not last.
+    </span>
+  </p>,
+  <p>
+    Placeholder at index 
+    4
+     
+    <span>
+      is last!
+    </span>
+  </p>,
+]
+`;
