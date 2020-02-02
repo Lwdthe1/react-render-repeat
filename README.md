@@ -1,6 +1,6 @@
 # react-render-repeat
 
-![carbon (35)](https://user-images.githubusercontent.com/5778798/73617125-a5d33400-45e9-11ea-8e98-fb65bc3b6355.png)
+![carbon (36)](https://user-images.githubusercontent.com/5778798/73617491-50008b00-45ed-11ea-918f-53fbae14e630.png)
 
 [![NPM](https://img.shields.io/npm/v/react-render-repeat.svg)](https://www.npmjs.com/package/react-render-repeat) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
