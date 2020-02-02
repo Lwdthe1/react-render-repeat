@@ -1,4 +1,4 @@
-# react-render-iff
+# react-render-repeat
 
 ![carbon (34)](https://user-images.githubusercontent.com/5778798/73144670-158b7100-4076-11ea-84e0-6b01bf1a42e1.png)
 
