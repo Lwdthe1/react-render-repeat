@@ -146,6 +146,13 @@ class Example extends Component {
               <p>Name: User B</p>
             </div>
             <div>
+              <p>I am the loading indicator at index 2 ...</p>
+              <p>
+                I should be replaced after the real data returns from the
+                server.
+              </p>
+            </div>
+            <div>
               <p>I am the loading indicator at index 3 ...</p>
               <p>
                 I should be replaced after the real data returns from the
@@ -154,13 +161,6 @@ class Example extends Component {
             </div>
             <div>
               <p>I am the loading indicator at index 4 ...</p>
-              <p>
-                I should be replaced after the real data returns from the
-                server.
-              </p>
-            </div>
-            <div>
-              <p>I am the loading indicator at index 5 ...</p>
               <p>
                 I should be replaced after the real data returns from the
                 server.

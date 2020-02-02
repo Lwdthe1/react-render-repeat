@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const isFunc = functionToCheck => {
   if (!functionToCheck) return false;
 
@@ -14,7 +16,7 @@ const isFunc = functionToCheck => {
 const evaluateValue = (prop, data) =>
   prop && isFunc(prop) ? prop(data) : prop;
 
-export default function RenderRepeat(props) {
+function RenderRepeat(props) {
   const { render, renderPlaceholder, isPlaceholder } = props;
   const list = evaluateValue(props.list) || [];
 
@@ -34,3 +36,12 @@ export default function RenderRepeat(props) {
     return render(data);
   });
 }
+
+RenderRepeat.propTypes = {
+  list: PropTypes.array,
+  render: PropTypes.func,
+  renderPlaceholder: PropTypes.func,
+  isPlaceholder: PropTypes.func
+};
+
+export default RenderRepeat;
